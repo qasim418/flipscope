@@ -127,3 +127,7 @@ FlipScope was developed for the TabPFN-3.5 Hackathon organized by Prior Labs.
 It brings prediction sensitivity, constrained edit search, and stability validation into one interactive workflow. Users and AI agents can investigate what changes a prediction, compare evidence across training subsets, and identify when a promising edit falls short during validation.
 
 The submission includes notebook dashboards, reproducible experiments, and a working MCP server that exposes the saved evidence to compatible AI assistants.
+
+## License
+
+FlipScope source code is licensed under the [Apache License 2.0](LICENSE). Third-party datasets and dependencies retain their respective licenses.
