@@ -12,6 +12,11 @@ FlipScope explores single-feature edits that change a TabPFN prediction, checks 
 - An MCP-compatible client, such as VS Code Copilot Agent, for the agent demo
 
 The local MCP demo was verified on Windows with Python 3.14.2. Dependencies are pinned in `requirements.txt`; `pip check` passed in that environment.
+
+## Model
+
+The experiments use TabPFN-3.5 through the Prior Labs hosted API with `tabpfn-client==0.6.1`. The served model version was verified during development. The code uses automatic model selection, so future runs may select a newer hosted default.
+
 ## Install on Windows
 
 Run in PowerShell:
