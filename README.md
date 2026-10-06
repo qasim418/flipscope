@@ -115,8 +115,10 @@ Search and validation use resampled subsets of the same training pool. Validatio
 
 Edits measure hypothetical model sensitivity. They do not establish causal effects, feasible financial actions, or lending recommendations. MCP tools query cached evidence; they do not predict outcomes for new applicants.
 
-## Built for the TabPFN Hackathon
+## TabPFN-3.5 Hackathon Submission
 
-FlipScope turns TabPFN predictions into an interactive investigation workflow. Users can explore prediction-flipping edits, set limits on how much a feature may change, and compare search stability with fresh-subset validation. Notebook dashboards and an MCP interface make the evidence accessible to both people and AI agents.
+FlipScope was developed for the TabPFN-3.5 Hackathon organized by Prior Labs.
 
-The result is a working tool for answering a practical question: **What would flip this prediction, and how reliable is that flip?**
+It brings prediction sensitivity, constrained edit search, and stability validation into one interactive workflow. Users and AI agents can investigate what changes a prediction, compare evidence across training subsets, and identify when a promising edit falls short during validation.
+
+The submission includes notebook dashboards, reproducible experiments, and a working MCP server that exposes the saved evidence to compatible AI assistants.
