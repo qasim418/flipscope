@@ -110,6 +110,10 @@ The saved German Credit experiment uses 1,000 records, with 800 training and 200
 - Frozen search-selected edits: 19
 - Frozen edits reaching at least 8/10 paired flips on fresh subsets: 14 of 19
 
+## Video Demo
+
+[Watch the FlipScope demonstration](https://youtu.be/FZ4KtB2fPH4)
+
 ## Interpretation
 
 A flip means the original prediction is at or above the 0.50 threshold and the edited prediction is below it.
