@@ -11,8 +11,7 @@ FlipScope explores single-feature edits that change a TabPFN prediction, checks 
 - VS Code with Python and Jupyter extensions for notebooks
 - An MCP-compatible client, such as VS Code Copilot Agent, for the agent demo
 
-The local MCP demo was verified on Windows with Python 3.14.2. Dependencies are pinned in `requirements.txt`; `pip check` passed in that environment. Full experiment reproduction has not yet been verified in that Windows environment.
-
+The local MCP demo was verified on Windows with Python 3.14.2. Dependencies are pinned in `requirements.txt`; `pip check` passed in that environment.
 ## Install on Windows
 
 Run in PowerShell:
