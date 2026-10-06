@@ -114,3 +114,9 @@ A flip means the original prediction is at or above the 0.50 threshold and the e
 Search and validation use resampled subsets of the same training pool. Validation is not an external-dataset evaluation, and observed rates are not future-outcome guarantees.
 
 Edits measure hypothetical model sensitivity. They do not establish causal effects, feasible financial actions, or lending recommendations. MCP tools query cached evidence; they do not predict outcomes for new applicants.
+
+## Built for the TabPFN Hackathon
+
+FlipScope turns TabPFN predictions into an interactive investigation workflow. Users can explore prediction-flipping edits, set limits on how much a feature may change, and compare search stability with fresh-subset validation. Notebook dashboards and an MCP interface make the evidence accessible to both people and AI agents.
+
+The result is a working tool for answering a practical question: **What would flip this prediction, and how reliable is that flip?**
