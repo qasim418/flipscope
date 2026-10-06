@@ -1,0 +1,9 @@
+{
+  "repeats": 10,
+  "train_fraction": 0.8,
+  "batch_size": 250,
+  "seed": 42,
+  "model_selection": "automatic_default",
+  "model_random_state": 0,
+  "client_version": "0.6.1"
+}

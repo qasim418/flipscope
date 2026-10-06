@@ -1,0 +1,93 @@
+{
+  "transport": "streamable-http",
+  "request": {
+    "tool": "find_edits",
+    "arguments": {
+      "record_id": 431,
+      "minimum_stability": 0.8,
+      "maximum_reduction": 0.5,
+      "limit": 2
+    }
+  },
+  "response": {
+    "status": "found",
+    "record": {
+      "record_id": 431,
+      "original_probability": 0.6460965871810913
+    },
+    "constraints": {
+      "minimum_search_stability": 0.8,
+      "maximum_reduction": 0.5,
+      "feature": "either",
+      "require_margin": false
+    },
+    "qualifying_count": 2,
+    "edits": [
+      {
+        "candidate_id": 502,
+        "record_id": 431,
+        "feature": "credit_amount",
+        "old_value": 11328.0,
+        "new_value": 6230.0,
+        "relative_reduction": 0.4500353107,
+        "original_high_risk_rate": 1.0,
+        "modified_low_risk_rate": 0.8,
+        "paired_flip_rate": 0.8,
+        "margin_flip_rate": 0.6,
+        "mean_original_p": 0.5940893292,
+        "mean_modified_p": 0.4690996796,
+        "mean_delta_p": -0.1249896497,
+        "validation": {
+          "status": "tested",
+          "record_id": 431,
+          "feature": "credit_amount",
+          "old_value": 11328.0,
+          "new_value": 6230.0,
+          "relative_reduction": 0.4500353107,
+          "search_flip_rate": 0.8,
+          "validation_flip_rate": 0.6,
+          "validation_original_high_rate": 1.0,
+          "validation_modified_low_rate": 0.6,
+          "validation_mean_original_p": 0.676024133,
+          "validation_mean_modified_p": 0.4776368082
+        }
+      },
+      {
+        "candidate_id": 501,
+        "record_id": 431,
+        "feature": "credit_amount",
+        "old_value": 11328.0,
+        "new_value": 5664.0,
+        "relative_reduction": 0.5,
+        "original_high_risk_rate": 1.0,
+        "modified_low_risk_rate": 0.9,
+        "paired_flip_rate": 0.9,
+        "margin_flip_rate": 0.6,
+        "mean_original_p": 0.5940893292,
+        "mean_modified_p": 0.4577482402,
+        "mean_delta_p": -0.136341089,
+        "validation": {
+          "status": "not_tested",
+          "reason": "This exact edit was not included in the frozen validation set."
+        }
+      }
+    ],
+    "interpretation": "Search-selected hypothetical edits; no causal or future-outcome guarantee."
+  },
+  "constrained_response": {
+    "status": "no_qualifying_tested_edit",
+    "record": {
+      "record_id": 431,
+      "original_probability": 0.6460965871810913
+    },
+    "constraints": {
+      "minimum_search_stability": 0.8,
+      "maximum_reduction": 0.4,
+      "feature": "either",
+      "require_margin": false
+    },
+    "qualifying_count": 0,
+    "edits": [],
+    "interpretation": "Search-selected hypothetical edits; no causal or future-outcome guarantee."
+  }
+}
